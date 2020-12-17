@@ -1,0 +1,348 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&family=Comfortaa:wght@400;700&family=Lacquer&display=swap');
+
+/* 
+font-family: 'Bitter', serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Lacquer', cursive; 
+*/
+ 
+/* page background colors */
+#index-body {
+    background-color: #8093F1;
+}
+
+#numbers-body {
+    background-color: #C0DF85;
+}
+
+#signs-body {
+    background-color: #FE938C;
+}
+
+#proactive-body {
+    background-color: #F0C97F;
+}
+
+
+.index-text {
+    margin-left: 41%;
+}
+
+.signs-text {
+    margin-left: 10%;
+    margin-right: 38%;
+    margin-bottom: -6%;
+}
+
+
+/* container */
+.container-fluid {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* nav stuff */
+.nav-link {
+    color: #000000;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: .9rem;
+    margin-right: 1.95rem;
+    margin-left: 1.95rem;
+}
+
+.nav {
+    margin-bottom: 1rem;
+}
+
+/* any active nav tab */
+.active {
+    color: #FFFFFF;
+}
+
+/* specific nav color tab hovers */
+.numbers-index:hover {
+    color: #FFF07C;
+}
+
+.signs-index:hover {
+    color: #FFF07C;
+}
+
+.proactive-index:hover {
+    color: #FFF07C;
+}
+
+
+.regularlink {
+    color: #474747;
+}
+
+.regularlink:hover {
+    color: #EBEBEB;
+}
+
+/* text formatting */
+
+h1 {
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 5.5rem;
+    margin-top: 45%;
+    margin-bottom: .7rem;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+h1-proactive {
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 5.5rem;
+    margin-top: -17%;
+    margin-bottom: .7rem;
+    margin-left: 22%;
+    margin-right: 22%;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Lacquer', cursive;
+    font-weight: 700;
+    font-size: 7rem;
+    margin-top: -2%;
+    margin-bottom: 1%;
+    position: relative;
+    z-index: 1;
+    display: block; 
+}
+
+h2-40 {
+    color: #ffffff;
+    font-family: 'Lacquer', cursive;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-top: 3.5%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    z-index: 1;
+    display: block; 
+    line-height: 2.5rem;
+}
+
+h2-men {
+    color: #ffffff;
+    font-family: 'Lacquer', cursive;
+    font-weight: 700;
+    font-size: 7rem;
+    margin-top: -2%;
+    position: relative;
+    z-index: 1;
+    display: block; 
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 3.5rem;
+
+    margin-bottom: .7rem;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+h3-causes {
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin-top: -3%;
+    margin-bottom: -1%;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+h4 {
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: .7rem;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+h5 {
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 6%;
+    margin-left: 10%;
+    margin-right: 30%;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+h6 {
+    color: lightgray;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: .8rem;
+    margin-left: 5%;
+}
+
+.card {
+    text-align: left;
+}
+.card-body {
+    font-family: 'Bitter', serif;
+    font-size: 1.25rem;
+}
+
+.card-title {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 1.9rem;
+    margin: 0%;
+}
+    
+
+/* home page orange-bag image */
+#orange-bag {
+    position: absolute; 
+    z-index: -1;
+    display: block;
+    width: 45%;
+}
+
+/* signs page coconut image */
+#coconut {
+    position: absolute; 
+    z-index: -1;
+    display: block;
+}
+
+/* signs page coconut image */
+#lemons {
+    position: absolute; 
+    z-index: -1;
+    display: block;
+    margin-right: -5%;
+}
+
+.full-card {
+    padding: 0px;
+}
+
+.btn {
+    margin-left: .5%;
+    margin-right: .5%;
+    margin-bottom: 2%;
+    background-color: #579E7E;
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.bottom-space {
+    margin-bottom: 5%;
+}
+
+#mydiv a {
+    font-size: 5rem;
+}
+
+.causes-title {
+    margin-bottom: 15%;
+}
+
+.signs-title {
+    margin-top: 16%;
+    margin-bottom: 15%;
+}
+
+.card-style {
+    background-color: #FE938C;
+    border-color: #FE938C;
+}
+
+.card-group {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: -3%;
+}
+
+li {
+    font-family: 'Bitter', serif;
+    font-size: 1.1rem;
+}
+
+.card-title {
+    margin-bottom: 5%;
+}
+
+.melons {
+    width: 50%;
+    z-index: -1;
+    margin-left: -7%;
+    margin-top: 5%;
+}
+
+.changefont {
+    font-size: 2rem;
+}
+
+.changefont a {
+    font-size: 3rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+}
+
+.self-breast {
+    margin-top: 2%;
+    margin-bottom: -13%;
+}
+
+.lowered {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.card-deck {
+    margin-bottom: 4%;
+    margin-top: 1%;
+    background-color: #F0C97F;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.clear-card {
+    background-color: #F0C97F;
+    border-color: #F0C97F;
+}
+
+.beginning-card {
+    margin-top: -2%;
+    margin-bottom: -1%;
+}
+
+.ending-card {
+    margin-bottom: 5%;
+}
